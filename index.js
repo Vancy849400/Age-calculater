@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Set the text content of the modalMinutes element to the calculated age in minutes
     modalMinutes.textContent = ageInMinutes;
     // Set the text content of the modalSeconds element to the calculated age in seconds
-
+    modalSeconds.textContent = ageInSeconds;
     // Display the modal
     modal.style.display = "block";
   });
