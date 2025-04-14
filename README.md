@@ -10,7 +10,7 @@ This project is a simple age calculator that takes a user's birthdate (month, da
 
 ## How to Use
 
-1.  Open the `https://vancy849400.github.io/Age-calculater/` file in your web browser.
+1.  Open the Link [https://vancy849400.github.io/Age-calculater/] in your web browser.
 2.  Select the month, day, and year of your birthdate from the provided dropdowns and input field.
 3.  Click the "Calculate" button.
 4.  The calculated age will be displayed in the results section or modal.
