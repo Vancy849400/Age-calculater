@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <!-- HERO SECTION -->
+        <div class="hero-section">
+          <div class="hero-contents">
+            <h1 class="hero-header">Age Calculater</h1>
+            <p class="hero-subheader">
+              Discover your age in years, months, weeks, days, hours, and even
+              seconds! Just enter your birth date below.
+            </p>
+          </div>
+        </div>
+
+        <!-- FORM DETAILS -->
+        <form id="ageCalculatorForm" class="form-group">
+          <h2 class="form-header">Birthday</h2>
+          <div class="month">
+            <label for="months">Month</label><br />
+            <select name="month" id="month">
+              <option value="0">Jan</option>
+              <option value="1" selected>Feb</option>
+              <option value="2">March</option>
+              <option value="3">April</option>
+              <option value="4">May</option>
+              <option value="5">June</option>
+              <option value="6">July</option>
+              <option value="7">Aug</option>
+              <option value="8">Sep</option>
+              <option value="9">Oct</option>
+              <option value="10">Nov</option>
+              <option value="11">Dec</option>
+            </select>
+          </div>
+
+          <div class="days">
+            <label for="days">Day</label><br />
+            <select name="days" id="days">
+              <option value="0">1</option>
+              <option value="1">2</option>
+              <option value="2">3</option>
+              <option value="3">4</option>
+              <option value="4">5</option>
+              <option value="5">6</option>
+              <option value="6">7</option>
+              <option value="7">8</option>
+              <option value="8">9</option>
+              <option value="9" selected>10</option>
+              <option value="10">11</option>
+              <option value="11">12</option>
+              <option value="12">13</option>
+              <option value="13">14</option>
+              <option value="14">15</option>
+              <option value="15">16</option>
+              <option value="16">17</option>
+              <option value="17">18</option>
+              <option value="18">19</option>
+              <option value="19">20</option>
+              <option value="20">21</option>
+              <option value="21">22</option>
+              <option value="22">23</option>
+              <option value="23">24</option>
+              <option value="24">25</option>
+              <option value="25">26</option>
+              <option value="26">27</option>
+              <option value="27">28</option>
+              <option value="29">30</option>
+              <option value="30">31</option>
+            </select>
+          </div>
+
+          <div class="years">
+            <label for="number">Year</label><br />
+            <input
+              type="number"
+              name="year"
+              id="year"
+              placeholder="Enter the year you were born."
+            />
+          </div>
+
+          <button type="submit" id="btn">Calculate</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- RESULTS -->
+    <section>
+      <div class="results" id="results" style="display: none;">
+        <h3 id="results">Results</h3>
+        <h4 class="age">Age: <span id="age">0</span></h4>
+        <h4 class="month">Month: <span id="month_result">0</span></h4>
+        <h4 class="week">Week: <span id="week">0</span></h4>
+        <h4 class="day">Day: <span id="day">0</span></h4>
+        <h4 class="hours">Hours: <span id="hours">0</span></h4>
+        <h4 class="minutes">Minutes: <span id="minutes">0</span></h4>
+        <h4 class="seconds">Seconds: <span id="seconds">0</span></h4>
+      </div>
+    </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="modal-results">Results</h3>
+        <h4 class="age">Age: <span id="modal-age">0</span></h4>
+        <h4 class="month">Month: <span id="modal-month_result">0</span></h4>
+        <h4 class="week">Week: <span id="modal-week">0</span></h4>
+        <h4 class="day">Day: <span id="modal-day">0</span></h4>
+        <h4 class="hours">Hours: <span id="modal-hours">0</span></h4>
+        <h4 class="minutes">Minutes: <span id="modal-minutes">0</span></h4>
+        <h4 class="seconds">Seconds: <span id="modal-seconds">0</span></h4>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
