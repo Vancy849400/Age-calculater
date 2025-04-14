@@ -63,7 +63,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Calculate the age in months
     const ageInMonths = age * 12 + monthDiff;
     // Calculate the age in weeks
-    const ageInWeeks = Math.floor((today - birthDate) / (7 * 24 * 60 * 60 * 1000));
+    const ageInWeeks = Math.floor(
+      (today - birthDate) / (7 * 24 * 60 * 60 * 1000)
+    );
     // Calculate the age in days
     const ageInDays = Math.floor((today - birthDate) / (24 * 60 * 60 * 1000));
     // Calculate the age in hours

@@ -31,10 +31,7 @@ body {
 }
 
 .hero-section {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(5.jpg) center/cover no-repeat; /* Darken image */
   color: white;
   text-align: center;
